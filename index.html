@@ -728,6 +728,7 @@
     <li><a href="#about"          data-sec="about">         <span class="s-icon"><i class="fas fa-user"></i></span> about</a></li>
     <li><a href="#skills"         data-sec="skills">        <span class="s-icon"><i class="fas fa-code"></i></span> skills</a></li>
     <li><a href="#projects"       data-sec="projects">      <span class="s-icon"><i class="fas fa-folder"></i></span> projects</a></li>
+    <li><a href="#research"       data-sec="research">      <span class="s-icon"><i class="fas fa-book"></i></span> research</a></li>
     <li><a href="#experience"     data-sec="experience">    <span class="s-icon"><i class="fas fa-briefcase"></i></span> experience</a></li>
     <li><a href="#education"      data-sec="education">     <span class="s-icon"><i class="fas fa-graduation-cap"></i></span> education</a></li>
     <li><a href="#certifications" data-sec="certifications"><span class="s-icon"><i class="fas fa-certificate"></i></span> certifications</a></li>
@@ -972,57 +973,83 @@
     </div>
   </section>
 
-<!-- ===== Research & Blogs Section ===== -->
-<section id="research" class="rb-section">
-  <p class="rb-eyebrow">Writing · Research · Community</p>
-  <h2 class="rb-heading">Research &amp; Blogs</h2>
-  <p class="rb-sub">Cybersecurity write-ups from hands-on pentesting work.</p>
+<!-- ===== RESEARCH ===== -->
 
-  <a href="https://medium.com/@bairegowda1003" target="_blank" rel="noopener" class="rb-follow">
-    Follow on Medium @bairegowda1003 →
-  </a>
+<section id="research">
 
-  <div class="rb-grid">
-    <a class="rb-card" href="https://medium.com/@bairegowda1003/how-i-used-ai-to-find-10-real-vulnerabilities-in-banking-apps-a-students-pentesting-journey-4978fb9d3c22" target="_blank" rel="noopener">
-      <div class="rb-card-top">
-        <span class="rb-tag">Pentesting</span>
-        <span class="rb-read">7 min read</span>
-      </div>
-      <h3 class="rb-title">How I Used AI to Find 10 Real Vulnerabilities in Banking Apps — A Student's Pentesting Journey</h3>
-      <p class="rb-desc">A hands-on cybersecurity assignment where I used Claude, Gemini, and Perplexity as pentesting assistants on two vulnerable banking apps — and documented exactly where each AI tool helped and where it failed.</p>
-      <div class="rb-stack">
-        <span class="rb-ptag">SQLi</span>
-        <span class="rb-ptag">IDOR</span>
-        <span class="rb-ptag">XSS</span>
-        <span class="rb-ptag">AI + Security</span>
-      </div>
-      <span class="rb-link">Read article →</span>
-    </a>
-  </div>
+<div class="sec-header reveal">
+<span class="sec-num">04.</span>
+<h2 class="sec-title">Research &amp; Blogs</h2>
+<div class="sec-line"></div>
+</div>
+
+<div class="proj-grid">
+
+<div class="proj-card reveal">
+
+<div class="proj-badge">★ MEDIUM</div>
+
+<div class="proj-year">
+Cybersecurity • AI Assisted Pentesting
+</div>
+
+<div class="proj-name">
+How I Used AI to Find 10 Real Vulnerabilities in Banking Apps
+</div>
+
+<div class="proj-desc">
+
+A detailed write-up documenting my hands-on AI-assisted penetration testing journey on intentionally vulnerable banking applications. The article explains how Claude, Gemini and Perplexity were used as security assistants to identify vulnerabilities including SQL Injection, XSS, IDOR and Authentication flaws while also discussing their limitations and false positives.
+
+</div>
+
+<div class="proj-stack">
+
+<span class="ptag">AI</span>
+
+<span class="ptag">Pentesting</span>
+
+<span class="ptag">SQL Injection</span>
+
+<span class="ptag">XSS</span>
+
+<span class="ptag">IDOR</span>
+
+<span class="ptag">Cybersecurity</span>
+
+</div>
+
+<div class="proj-links">
+
+<a href="https://medium.com/@bairegowda1003" target="_blank" class="proj-link">
+
+<i class="fab fa-medium"></i>
+
+Medium Profile
+
+</a>
+
+<a href="https://medium.com/@bairegowda1003/how-i-used-ai-to-find-10-real-vulnerabilities-in-banking-apps-a-students-pentesting-journey-4978fb9d3c22"
+target="_blank"
+class="proj-link">
+
+<i class="fas fa-book-open"></i>
+
+Read Article
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
 </section>
-
-<style>
-  .rb-section{padding:80px 24px;max-width:1100px;margin:0 auto;font-family:'JetBrains Mono',monospace;color:#e6e6e6;}
-  .rb-eyebrow{color:#7dd3fc;font-size:.8rem;letter-spacing:.15em;text-transform:uppercase;margin-bottom:8px;}
-  .rb-heading{font-size:2rem;margin:0 0 8px;color:#fff;}
-  .rb-sub{color:#9ca3af;margin-bottom:24px;}
-  .rb-follow{display:inline-block;color:#7dd3fc;text-decoration:none;font-size:.9rem;margin-bottom:36px;border-bottom:1px solid transparent;transition:border-color .2s;}
-  .rb-follow:hover{border-color:#7dd3fc;}
-  .rb-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;}
-  .rb-card{display:block;background:#12151c;border:1px solid #262b36;border-radius:12px;padding:24px;text-decoration:none;color:inherit;transition:transform .2s,border-color .2s;}
-  .rb-card:hover{transform:translateY(-4px);border-color:#7dd3fc;}
-  .rb-card-top{display:flex;justify-content:space-between;font-size:.75rem;color:#9ca3af;margin-bottom:12px;}
-  .rb-tag{color:#7dd3fc;}
-  .rb-title{font-size:1.05rem;color:#fff;margin:0 0 10px;line-height:1.4;}
-  .rb-desc{font-size:.85rem;color:#9ca3af;line-height:1.6;margin-bottom:16px;}
-  .rb-stack{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px;}
-  .rb-ptag{font-size:.7rem;background:#1c2029;color:#7dd3fc;padding:4px 10px;border-radius:20px;}
-  .rb-link{font-size:.85rem;color:#7dd3fc;}
-</style>
   <!-- EXPERIENCE -->
   <section id="experience">
     <div class="sec-header reveal">
-      <span class="sec-num">04.</span>
+      <span class="sec-num">05.</span>
       <h2 class="sec-title">experience</h2>
       <div class="sec-line"></div>
     </div>
@@ -1044,7 +1071,7 @@
   <!-- EDUCATION -->
   <section id="education">
     <div class="sec-header reveal">
-      <span class="sec-num">05.</span>
+      <span class="sec-num">06.</span>
       <h2 class="sec-title">education</h2>
       <div class="sec-line"></div>
     </div>
@@ -1077,7 +1104,7 @@
   <!-- CERTIFICATIONS -->
   <section id="certifications">
     <div class="sec-header reveal">
-      <span class="sec-num">06.</span>
+      <span class="sec-num">07.</span>
       <h2 class="sec-title">certifications</h2>
       <div class="sec-line"></div>
     </div>
@@ -1112,7 +1139,7 @@
   <!-- CONTACT -->
   <section id="contact">
     <div class="sec-header reveal">
-      <span class="sec-num">07.</span>
+      <span class="sec-num">08.</span>
       <h2 class="sec-title">contact</h2>
       <div class="sec-line"></div>
     </div>
